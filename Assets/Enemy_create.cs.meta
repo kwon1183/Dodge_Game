@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7f96d766538f745adb1a776a3f446aac
+timeCreated: 1517814966
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Player: {fileID: 1081268582677502, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
+  - Enemy_Prefab: {fileID: 1454006705553216, guid: 457e2c1a0e88c489fa1f624a2e685934,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
