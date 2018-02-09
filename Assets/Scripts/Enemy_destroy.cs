@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy_destroy : MonoBehaviour {
 
 	private float Create_Time;
-	private float destory_Time=2.0f;
+	private float destory_Time=10.0f;
 
 	void Start(){
 		Create_Time = Time.time;

@@ -74,7 +74,10 @@
      <Compile Include="Assets\Scripts\ExitButtonControl.cs" />
      <Compile Include="Assets\Scripts\Hp.cs" />
      <Compile Include="Assets\Scripts\IntervalTest.cs" />
+     <Compile Include="Assets\Scripts\Pill_Create.cs" />
+     <Compile Include="Assets\Scripts\Pill_destroy.cs" />
      <Compile Include="Assets\Scripts\Player_Move.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />

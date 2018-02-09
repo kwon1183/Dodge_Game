@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy_create : MonoBehaviour {
 
 	private float Last_create_time;
-	public float Create_interval = 1.5f; // time interval of creating every 1.5f
+	public float Create_interval = 0.5f; // time interval of creating every 1.5f
 	public float Radius = 10f; // radius from the object
 	public float Last_position;
 
@@ -20,7 +20,7 @@ public class Enemy_create : MonoBehaviour {
 		}
 	}
 
-	private void create_enemy(){
+	public void create_enemy(){
 		
 		float theta = Random.Range (0, Mathf.PI * 2);
 		float ex = Mathf.Cos (theta);
