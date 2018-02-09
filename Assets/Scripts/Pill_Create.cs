@@ -16,6 +16,7 @@ public class Pill_Create : MonoBehaviour {
 	public GameObject BadPill_prefab;
 
 	public void Start(){
+		Last_create_time = Time.time;
 		//Destroy(gameObject,Destroy_interval);
 		//Last_destroy_time = Time.time;
 		//Last_destroy_time = Time.time + Create_interval + Destroy_interval;
@@ -25,8 +26,9 @@ public class Pill_Create : MonoBehaviour {
 
 		if (Time.time - Last_create_time > Create_interval) {
 			create_pill ();
-			Destroy(gameObject,Destroy_interval);
-			Last_create_time = Time.time; // updating the last create time
+			//Destroy(gameObject,Destroy_interval);
+			Last_create_time = Time.time;
+			 // updating the last create time
 
 			//Last_destroy_time = Time.time; 
 			//Destroy (gameObject);
@@ -45,18 +47,20 @@ public class Pill_Create : MonoBehaviour {
 		float ez = Mathf.Sin (theta);
 
 		int pill_choice = Random.Range (0, 2); // int? float?
-		var pill_position = new Vector3 (Radius*ex, 0.5f, +Radius*ez);
+		var pill_position = new Vector3 (Radius*ex, 2.0f, +Radius*ez);
 
 		if(pill_choice == 0){
 		var GoodPill = Instantiate (GoodPill_prefab); // create goodpill
 		GoodPill.transform.position = pill_position;
+			Destroy (GoodPill, Destroy_interval);
 		}
 
 		else{
 		var BadPill = Instantiate (BadPill_prefab); // create goodpill
 		BadPill.transform.position = pill_position;
+			Destroy (BadPill, Destroy_interval);
 		}
-		Destroy (gameObject);
+		//Destroy (gameObject);
 
 	}
 }

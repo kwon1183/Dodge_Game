@@ -282,11 +282,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &230950125 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1816168824634052, guid: a75e5ac4a35bf4653bb745a5c9200055,
-    type: 2}
-  m_PrefabInternal: {fileID: 1794432555}
 --- !u!1 &303896064
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,7 +581,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72b519dae4fad4789a2a77d9f7f3de5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BackGroundMusic: {fileID: 230950125}
 --- !u!224 &1736713877
 RectTransform:
   m_ObjectHideFlags: 0
@@ -647,11 +641,21 @@ Prefab:
     - target: {fileID: 82131870376260998, guid: a75e5ac4a35bf4653bb745a5c9200055,
         type: 2}
       propertyPath: m_PlayOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82131870376260998, guid: a75e5ac4a35bf4653bb745a5c9200055,
         type: 2}
       propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82131870376260998, guid: a75e5ac4a35bf4653bb745a5c9200055,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 050ef3c68393c4c7285a1ab67d2fabf2, type: 3}
+    - target: {fileID: 82131870376260998, guid: a75e5ac4a35bf4653bb745a5c9200055,
+        type: 2}
+      propertyPath: BypassListenerEffects
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

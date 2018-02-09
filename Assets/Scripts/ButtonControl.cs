@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ButtonControl : MonoBehaviour {
 	
 	//public Text addNumberButtonText;
-	public GameObject BackGroundMusic;
+	//public GameObject BackGroundMusic;
 
 	public void OpenMainScene(){
 		SceneManager.LoadScene("Game");
@@ -26,9 +26,7 @@ public class ButtonControl : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
-	public void AudioConst(){
-		DontDestroyOnLoad(BackGroundMusic);
-	}
+
 	/*public void AddNumber(){
 		var addNumber = PlayerPrefs.GetInt ("ADD_NUMBER", 0);
 		addNumberButtonText.text = (addNumber + 1).ToString();

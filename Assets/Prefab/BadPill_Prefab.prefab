@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 136793812709176150}
   - component: {fileID: 23200705226646124}
   - component: {fileID: 114227724136508816}
-  - component: {fileID: 114453012450318408}
   - component: {fileID: 82447541538184470}
   m_Layer: 0
   m_Name: BadPill_Prefab
@@ -177,25 +176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3ea074d966c4490c900fa5b05fd497e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114453012450318408
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1976217944138322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c86d46b7aa2f450d8a5ebe51860e002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Last_create_time: 0
-  Last_destroy_time: 0
-  Create_interval: 10
-  Destroy_interval: 4
-  Player: {fileID: 1081268582677502, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
-  GoodPill_prefab: {fileID: 1732901708546882, guid: 7a9535202529140fc8e8b2bc693432fd,
-    type: 2}
-  BadPill_prefab: {fileID: 1976217944138322}
 --- !u!136 &136793812709176150
 CapsuleCollider:
   m_ObjectHideFlags: 1

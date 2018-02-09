@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/splash.unity
     guid: fe856ebfba76a4d40ad290b1a8f3f170
   - enabled: 1
-    path: Assets/Game.unity
-    guid: e5c02ff7b28824f8d9c1cc6bae8997d8
-  - enabled: 1
     path: Assets/GameD.unity
     guid: b52f4e39ee968430a9cc07db2c7fe7ae
+  - enabled: 1
+    path: Assets/Game.unity
+    guid: e5c02ff7b28824f8d9c1cc6bae8997d8

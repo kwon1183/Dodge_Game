@@ -13,6 +13,7 @@ public class collusion : MonoBehaviour {
 	public AudioSource BadPill_sound;
 
 	private void Start(){
+		Time.timeScale = 1.0f;
 		Panel.SetActive (false);
 	}
 

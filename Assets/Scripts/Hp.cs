@@ -11,7 +11,7 @@ public class Hp : MonoBehaviour {
 
 
 	private void Start(){
-		hpText.text = hp.ToString ();
+		hpText.text = string.Format("HP:{0}",hp.ToString());
 		lastAutoHealTime = Time.time;
 	}
 
@@ -31,7 +31,7 @@ public class Hp : MonoBehaviour {
 	}
 
 	private void UpdateHp(){
-		hpText.text = hp.ToString ();
+		hpText.text = string.Format("HP:{0}",hp.ToString());
 	}
 
 	private void AutoHeal(){

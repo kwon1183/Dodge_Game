@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33766561696685030}
   - component: {fileID: 136317332340638688}
   - component: {fileID: 23379644340156536}
-  - component: {fileID: 114040423222220152}
   - component: {fileID: 114134543660839966}
   - component: {fileID: 82343342362272760}
   m_Layer: 0
@@ -166,25 +165,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114040423222220152
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1732901708546882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c86d46b7aa2f450d8a5ebe51860e002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Last_create_time: 0
-  Last_destroy_time: 0
-  Create_interval: 10
-  Destroy_interval: 4
-  Player: {fileID: 1081268582677502, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
-  GoodPill_prefab: {fileID: 1732901708546882}
-  BadPill_prefab: {fileID: 1976217944138322, guid: c6736ca9858a2404a87f8a5179362427,
-    type: 2}
 --- !u!114 &114134543660839966
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -43,7 +43,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 4d8be6ce1dbff48d7a392ec9cf3cac56,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -1470,34 +1471,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1213350341
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1213350343}
-  m_Layer: 0
-  m_Name: Pill_Destroy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1213350343
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1213350341}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.36553, y: -43.097218, z: -18.914476}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1266408365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1527,8 +1500,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Last_create_time: 0
   Last_destroy_time: 0
-  Create_interval: 4
-  Destroy_interval: 3
+  Create_interval: 10
+  Destroy_interval: 5
   Player: {fileID: 1685727967}
   GoodPill_prefab: {fileID: 1732901708546882, guid: 7a9535202529140fc8e8b2bc693432fd,
     type: 2}
@@ -2298,7 +2271,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bba72ed4c1b384ae9a052929bbfa1bae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.72
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2650,19 +2623,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4251451107256386, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4251451107256386, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251451107256386, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251451107256386, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.5
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4251451107256386, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2670,7 +2643,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4251451107256386, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251451107256386, guid: b5dd25377b4d444c7b7d7514beaadb45, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2741,7 +2714,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: cfa5cd38b0eeb5d45aafdbe57871168c, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cfa5cd38b0eeb5d45aafdbe57871168c, type: 2}
